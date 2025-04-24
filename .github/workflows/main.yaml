@@ -38,7 +38,7 @@ jobs:
         uses: bounceapp/render-action@0.8.0
         with:
           render-token: ${{ secrets.RENDER_TOKEN }}
-          service-id: srv-cb1k1234567890abcdef # Replace with your Render service ID
+          service-id: srv-cvlcnrfdiees73alvoeg
           retries: 20
           wait: 16000
           sleep: 30000
