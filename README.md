@@ -13,3 +13,19 @@ https://node-server-ca6y.onrender.com
 ## Local Development
 docker build -t node-server .
 docker run -p 8080:8080 node-server
+
+Access at http://localhost:8080.
+
+#### Repository Setup
+- Created `https://github.com/allu29/node-server-render`.
+- Added the files above.
+- Initialized and pushed:
+  ```bash
+  git init
+  git add .
+  git commit -m "Initial commit with Node.js server and Dockerfile"
+  git branch -M main
+  git remote add origin https://github.com/allu29/node-server-render.git
+  git push -u origin main
+
+
